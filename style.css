@@ -1,0 +1,14 @@
+:root{
+    --color-blue: #2196F3;
+    --color-black: #212121;
+    --color-gray: #2F303A;
+    --color-gray-for-text-and-nav-tel: #757575;                                                                                                                             
+    --color-for-contacts: rgba(255, 255, 255, 0.60);
+    --color-for-fotocart-background: #F5F4FA;
+    --color-white: #FFF;
+}
+
+/* Початок стилізації */
+.logo{ 
+    color: var(--color-blue);
+}
