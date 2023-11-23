@@ -8,6 +8,9 @@
     --color-white: #FFF;
 }
 
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 /* Початок стилізації */
 .logo{ 
     color: var(--color-blue);
