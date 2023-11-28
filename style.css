@@ -12,6 +12,32 @@
 font-family: 'Roboto', sans-serif; */
 
 /* Початок стилізації */
+.main_logo{ 
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+a{ 
+    text-decoration: none;
+}
 .logo{ 
     color: var(--color-blue);
+}
+.logo{ 
+    color: var(--color-blue);
+}
+.a_contacts:hover{ 
+    color: var(--color-blue);
+}
+nav > ul{ 
+    list-style-type: none;
+}
+a:link{
+    color: var(--color-black);
+}
+a:visited{ 
+    color: var(--color-black);
 }
