@@ -15,7 +15,7 @@
 font-family: 'Roboto', sans-serif; */
 
 /* Початок стилізації */
-body{
+/* body{
     font-family: 'Roboto', sans-serif;
 }
 .main_logo{ 
@@ -66,7 +66,7 @@ a:visited{
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 60px; 136.364%
     letter-spacing: 2.64px;
     text-transform: uppercase;
     background-color: var(--color-gray);
@@ -77,7 +77,7 @@ button{
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; .
     letter-spacing: 0.96px;
     background-color: var(--color-blue);
     border: 0px;
@@ -99,7 +99,7 @@ button{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 171.429%
     letter-spacing: 0.42px;
 }
 .articles{ 
@@ -151,6 +151,7 @@ address{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 171.429%
     letter-spacing: 0.42px;
-}
+} */
+
