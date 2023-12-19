@@ -193,3 +193,8 @@ address{
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
 }
+.article-container, .about-container, .main-container, .footer-container{ 
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
