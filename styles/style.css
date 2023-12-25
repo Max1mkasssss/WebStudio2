@@ -273,4 +273,21 @@ address{
 .footer-container{ 
     display: flex;
     flex-direction: column;
+} 
+/* .pages{ 
+    display: flex;
+    flex-direction: column;
+} */
+header{ 
+    display: flex;
+}
+.pages { 
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+}
+.contacts{ 
+    display: flex;
+    gap: 50px;
+    margin-left: 344px;
 }
