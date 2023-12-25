@@ -19,34 +19,35 @@
 <body>
     <header class="container header-container">
         <a class="main_logo" href="/pages/index.html"><span class="logo">Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li class="active"><a class="a_contacts" href="/pages/index.html">Студія</a></li>
-                <li><a class="a_contacts" href="/pages/portfolio.html">Портфоліо</a></li>
-                <li><a class="a_contacts" href="#">Контакти</a></li>
+        <nav class="nav-menu">
+            <ul class="pages">
+                <li class="nav-menu-items" class="active"><a class="a_contacts" href="/pages/index.html">Студія</a></li>
+                <li class="nav-menu-items"><a class="a_contacts" href="/pages/portfolio.html">Портфоліо</a></li>
+                <li class="nav-menu-items"><a class="a_contacts" href="#">Контакти</a></li>
             </ul>
-            <ul>
-                <li><a class="mail"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="mail"  href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="contacts">
+                <li class="nav-menu-items-cont"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="nav-menu-items-cont"><a class="mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
     </header>
     <main class="container main-container">
         <section class="buttons">
             <ul>
-                <li>
+                <li class="button">
                     <a href="#"><button>Усі</button></a>
                 </li>
                 <li>
                     <a href="#"><button>Веб-сайти</button></a>
-                </li>
+                </li class="button">
                 <li>
                     <a href="#"><button>Додатки</button></a>
                 </li>
-                <li>
+                <li class="button">
                     <a href="#"><button>Дизайн</button></a>
                 </li>
-                <li>
+                <li class="button">
                     <a href="#"><button>Маркетинг</button></a>
                 </li>
             </ul>
@@ -101,33 +102,34 @@
             </ul>
         </section>
     </main>
-    <footer class="container footer-container">
-        <a class="main_logo" href="/pages/index.html"><span class="logo">Web</span><span class="studio">Studio</span></a>
-        <section>
-            <ul class="list-photodiary">
-                <li><a href="https://maps.app.goo.gl/oLVU6LMJK5TX3nZE9" target="_blank">
-                        <address>м. Київ, пр-т Лесі Українки, 26</address>
-                    </a></li>
-                <li><a style="
-                            color: rgba(255, 255, 255, 0.60);
-                            font-family: Roboto;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 24px; /* 171.429% */
-                            letter-spacing: 0.42px;"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a style="
-                            color: rgba(255, 255, 255, 0.60);
-                            font-family: Roboto;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 24px; /* 171.429% */
-                            letter-spacing: 0.42px;" 
-                            href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </section>
-    </footer>
+    <div class="gray-backround">
+        <footer class="container footer-container">
+            <a class="main_logo" href="/pages/index.html"><span class="logo">Web</span><span
+                    class="studio">Studio</span></a>
+            <section>
+                <ul class="adress">
+                    <li><a href="https://maps.app.goo.gl/oLVU6LMJK5TX3nZE9" target="_blank">
+                            <address>м. Київ, пр-т Лесі Українки, 26</address>
+                        </a></li>
+                    <li><a style="
+                                color: rgba(255, 255, 255, 0.60);
+                                font-family: Roboto;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px; /* 171.429% */
+                                letter-spacing: 0.42px;" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a style="
+                                color: rgba(255, 255, 255, 0.60);
+                                font-family: Roboto;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px; /* 171.429% */
+                                letter-spacing: 0.42px;" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
 </body>
 </html>

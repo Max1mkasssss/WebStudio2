@@ -139,9 +139,9 @@ button{
     line-height: normal;
     letter-spacing: 0.48px;
 }
-.photocard{
+/* .photocard{
     background-color: var(--color-for-fotocart-background);
-}
+} */
 footer{ 
     background-color: var(--color-gray);
     color: var(--color-white);
@@ -261,6 +261,8 @@ address{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 .name, .who-is{ 
     display: flex;
@@ -286,8 +288,45 @@ header{
     gap: 50px;
     margin-left: 93px;
 }
-.contacts{ 
+
+/* Контакти?  */
+
+.buttons{
+    text-align: center; 
+}
+  
+.buttons ul{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+.buttons li{
+    display: inline-block;
+    margin-right: 8px; 
+}
+.buttons button{
+    padding: 8px 16px; 
+}
+.photodiary .fotos {
     display: flex;
-    gap: 50px;
-    margin-left: 344px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+.photodiary .fotos li {
+    margin: 10px;
+    display: flex;
+    flex-direction: column; 
+    text-align: left; 
+}
+.photodiary .fotos img {
+    max-width: 100%;
+    height: auto;
+}
+.photodiary .fotos h3,
+.photodiary .fotos p {
+    margin: 4px 0;
+}
+.backround{ 
+    background-color: var(--color-for-fotocart-background);
 }
