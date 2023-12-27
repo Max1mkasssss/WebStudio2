@@ -7,16 +7,35 @@
     --color-for-contacts: rgba(255, 255, 255, 0.60);
     --color-for-fotocart-background: #F5F4FA;
     --color-white: #FFF;
-
     
 }
 
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;  */
+*{ 
+
+    /* ================prohibition of allocation================  */
+
+
+   /* Cross brouser  */
+    user-select: none;
+
+    /* Internet Explorer  */
+    -ms-user-select: none;
+
+    /* Chrome, Safari  */
+    -webkit-user-select: none;
+
+    /* Firefox  */
+    -moz-user-select: none;
+}
+
 
 /* Початок стилізації */
+
 body{
     font-family: 'Roboto', sans-serif;
+    /* white-space: no-wrap; */
+    margin: 0;
+    padding: 0;
 }
 .main_logo{ 
  font-family: 'Raleway', sans-serif;
@@ -87,6 +106,14 @@ button{
     border: 0px;
     border-radius: 3%;
 }
+.main-button:hover{ 
+    box-shadow: black 1px;
+    transition: 0.3s;
+    transform: translateY(10px) scale(1);
+}
+.main-button:not(:hover){ 
+    transition: 0.5s;
+}
 .article-about{ 
     color: var(--color-black);
     font-family: Roboto;
@@ -139,9 +166,6 @@ button{
     line-height: normal;
     letter-spacing: 0.48px;
 }
-/* .photocard{
-    background-color: var(--color-for-fotocart-background);
-} */
 footer{ 
     background-color: var(--color-gray);
     color: var(--color-white);
@@ -160,7 +184,7 @@ address{
 }
 .container{ 
     width: 1170px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     margin: 0 auto;
     padding: 15px;
  }
@@ -171,7 +195,7 @@ address{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; /* 200% */
+    line-height: 36px; 
     letter-spacing: 1.08px;
 }
 .fotos > li > p{ 
@@ -180,7 +204,7 @@ address{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
     letter-spacing: 0.48px;
 }
 .buttons > ul > button > a{ 
@@ -190,7 +214,7 @@ address{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     letter-spacing: 0.48px;
 }
 .article-container, .about-container, .main-container, .footer-container{ 
@@ -268,28 +292,20 @@ address{
     display: flex;
     justify-content: center;
 }
-/* .adress{ 
-    display: flex;
-    flex-direction: column;
-} */
+
 .footer-container{ 
     display: flex;
     flex-direction: column;
 } 
-/* .pages{ 
-    display: flex;
-    flex-direction: column;
-} */
-header{ 
-    display: flex;
-}
+
 .pages { 
     display: flex;
     gap: 50px;
     margin-left: 93px;
 }
 
-/* Контакти?  */
+
+
 
 .buttons{
     text-align: center; 
@@ -329,4 +345,30 @@ header{
 }
 .backround{ 
     background-color: var(--color-for-fotocart-background);
+}
+.header-container{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pages, .contacts{ 
+    display: flex;
+}
+.nav-menu-items{ 
+    gap: 50px;
+}
+.nav-menu-items-cont{ 
+    gap: 50px;
+}
+.list-photodiary{ 
+    gap: 20px;
+}
+.btn-hover:hover{ 
+    box-shadow: black 5px;
+    transition: 0.3s;
+    transform: translateY(10px) scale(1);
+}
+.btn-hover:not(:hover){ 
+    transition: 0.5s;
 }
